@@ -1,0 +1,30 @@
+{
+  "name": "rolonas",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElXavs/rolonas.git"
+  },
+  "keywords": [],
+  "author": "Xavier Garcia <xaviergn60@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElXavs/rolonas/issues"
+  },
+  "homepage": "https://github.com/ElXavs/rolonas#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0"
+  }
+}
