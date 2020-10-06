@@ -1,0 +1,57 @@
+@import './Vars.styl'
+
+.watch
+  .backg
+    position: absolute
+    opacity: 0.15
+  .back
+    margin-left: 10px
+    display: flex
+    p
+      color: verde
+      font-family: Fuente1
+      font-weight: 800
+      letter-spacing: 2px
+    img
+      margin-right: 20px 
+      border-radius: 50%
+      background: titulos
+  &__title
+    margin-left: 30px
+    font-size: 50px
+    font-family: Fuente2
+    color: titulos
+    text-shadow: 10px 0px 10px  black
+  &__listItem
+    width: 955px
+    margin-left: 30px
+    border: solid 1px white
+    border-radius: 10px
+    display: grid
+    grid-template-columns: 320px 600px 60px 
+    grid-template-rows: 310px
+    background: secundario
+    &-img
+      grid-column: 1 / 2
+      border: solid 5px white
+      border-radius: 10px
+      height: 300px
+    &-menu-container
+      margin-top: 5px
+      display: flex
+      justify-content: center
+      align-items: center
+      height: 30px
+      width: 30px
+      border-radius: 50%
+      background: texto
+      img 
+        height: 33px
+        width: 33px
+    &-content
+      grid-column: 2 / 3
+      font-size: 30px
+      font-family: Fuente1
+      color: verde
+      line-height: 20px
+      text-shadow: 10px 0px 10px  black

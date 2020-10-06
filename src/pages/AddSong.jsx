@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/AddSong.styl';
-const back = '../assets/images/chevronLeft.png';
+const back = 'https://img.icons8.com/ios/50/000000/circled-chevron-left.png';
 
 const AddSong = () => {
   <section className="addSong">

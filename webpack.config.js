@@ -42,10 +42,20 @@ module.exports = {
         test: /\.styl/,
         use: ['style-loader', 'css-loader', 'stylus-loader'],
       },
+      {
+        test: /\.jpg|png$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 90000,
+          },
+        },
+      },
     ],
   },
   devServer: {
     historyApiFallback: true,
+    contentBase: path.join(__dirname, 'assets'),
   },
   plugins: [
     new HtmlWebpackPlugin({
