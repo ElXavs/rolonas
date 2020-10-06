@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/AddSong.styl';
+import './styles/AddSong.styl';
 const back = '../assets/images/chevronLeft.png';
 
 const AddSong = () => {

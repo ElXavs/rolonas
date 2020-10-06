@@ -1,5 +1,6 @@
 import React from 'react';
-import '../assets/styles/Watch.styl';
+import './styles/Watch.styl';
+
 const listCover = '../assets/images/listCover.png';
 const menu = '../assets/images/3dots.png';
 const back = '../assets/images/chevronLeft.png';

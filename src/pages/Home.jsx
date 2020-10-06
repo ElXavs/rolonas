@@ -1,10 +1,11 @@
 import React from 'react';
-import '../assets/styles/Home.styl';
+import './styles/Home.styl';
+// const back = '../assets/images/back3.jpg';
 
 const Home = () => (
   <section className="home">
     <h1 className="home__title">
-      Crea una lista con tus <strong>rolonas</strong>
+      Crea una lista con tus <strong>rolonas</strong> favoritas
     </h1>
     <div className="home__btns">
       <h3>Crea tu lista</h3>

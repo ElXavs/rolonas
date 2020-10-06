@@ -1,6 +1,6 @@
 import React from 'react';
 import ListItem from '../components/ListItem';
-import '../assets/styles/List.styl';
+import './styles/List.styl';
 const back = '../assets/images/chevronLeft.png';
 
 const List = () => (

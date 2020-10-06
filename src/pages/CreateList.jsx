@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/CreateList.styl';
+import './styles/CreateList.styl';
 const back = '../assets/images/chevronLeft.png';
 
 const CreateList = () => (
