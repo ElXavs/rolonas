@@ -8,3 +8,84 @@ texto = #F7F5fb
 
 Fuente1='Lato', sans-serif
 Fuente2='Oswald', sans-serif
+
+backpage()
+  margin-left: 10px
+  display: flex
+  p
+    color: verde
+    font-family: Fuente1
+    font-weight: 800
+    letter-spacing: 2px
+  img
+    margin-right: 20px 
+    border-radius: 50%
+    background: titulos
+
+title()
+  margin-left: 30px
+  font-size: 80px
+  font-family: Fuente2
+  color: titulos
+  text-shadow: 10px 0px 10px  black
+
+form()
+  margin-left: 30px 
+  display: grid
+  grid-template-columns: 800px
+  grid-template-rows: repeat(3,120px)
+  font-family: Fuente1
+  font-size: 40px
+  font-weight: 800
+  color: verde
+  .name-group
+    margin-bottom: 30px
+  label 
+    margin-right: 20px
+  input 
+    height: 50px
+    width: 800px
+    border-radius: 10px 
+  button 
+    margin-top: 20px
+    font-family: Fuente2
+    font-size: 30px
+    color: texto
+    height: 80px
+    width: 200px
+    border-radius: 10px
+    background: secundario
+
+listItem()
+  width: 955px
+  margin-left: 30px
+  border: solid 1px white
+  border-radius: 10px
+  display: grid
+  grid-template-columns: 320px 600px 60px 
+  grid-template-rows: 310px
+  background: secundario
+  &-img
+    grid-column: 1 / 2
+    border: solid 5px white
+    border-radius: 10px
+    height: 300px
+  &-menu-container
+    margin-top: 5px
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 30px
+    width: 30px
+    border-radius: 50%
+    background: texto
+    img 
+      height: 33px
+      width: 33px
+  &-content
+    grid-column: 2 / 3
+    font-size: 30px
+    font-family: Fuente1
+    color: verde
+    line-height: 20px
+    text-shadow: 10px 0px 10px  black
